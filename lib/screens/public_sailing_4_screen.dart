@@ -76,8 +76,8 @@ class _PublicSailing4ScreenState extends State<PublicSailing4Screen> {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: Container(
-                child: new Image.asset('images/sailBoatBlackAndWhite.png'),
                 alignment: Alignment.center,
+                child: Image.asset('images/sailBoatBlackAndWhite.png'),
               ),
             ),
           ], //children

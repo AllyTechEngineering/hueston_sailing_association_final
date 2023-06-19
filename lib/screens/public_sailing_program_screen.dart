@@ -45,8 +45,8 @@ class _PublicSailingProgramScreenState extends State<PublicSailingProgramScreen>
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: Container(
-                child: new Image.asset('images/sailBoatBlackAndWhite.png'),
                 alignment: Alignment.center,
+                child: Image.asset('images/sailBoatBlackAndWhite.png'),
               ),
             ),
           ],
@@ -55,73 +55,3 @@ class _PublicSailingProgramScreenState extends State<PublicSailingProgramScreen>
     );
   } //Widget
 }
-
-class buttonSection extends StatelessWidget {
-  const buttonSection({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(left: 0.0, right: 0.0, top: 20.0, bottom: 10.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Container(
-                margin: const EdgeInsets.only(top: 8),
-                child: Center(
-                  child: SizedBox(
-                    width: kWidthElevatedButton,
-                    height: kHeightElevatedButton,
-                    child: buildElevatedButtonPublicSailingProgram1(context),
-                  ),
-                ),
-              ),
-              Container(
-                margin: const EdgeInsets.only(top: 20.0),
-                child: Center(
-                  child: SizedBox(
-                    width: kWidthElevatedButton,
-                    height: kHeightElevatedButton,
-                    child: buildElevatedButtonPublicSailingProgram2(context),
-                  ),
-                ),
-              ),
-            ], //children
-          ),
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Container(
-                margin: const EdgeInsets.only(top: 8),
-                child: Center(
-                  child: SizedBox(
-                    width: kWidthElevatedButton,
-                    height: kHeightElevatedButton,
-                    child: buildElevatedButtonPublicSailingProgram3(context),
-                  ),
-                ),
-              ),
-              Container(
-                margin: const EdgeInsets.only(top: 20.0),
-                child: Center(
-                  child: SizedBox(
-                    width: kWidthElevatedButton,
-                    height: kHeightElevatedButton,
-                    child: buildElevatedButtonPublicSailingProgram4(context),
-                  ),
-                ),
-              ),
-            ], //children
-          ),
-        ],
-      ),
-    );
-  }
-} //class
