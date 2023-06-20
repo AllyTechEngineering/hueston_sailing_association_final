@@ -32,290 +32,304 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
     // print('This is the _map of the data from the decoded JSON file before sort: $_map');
     List competitors = _map.keys.toList();
     int compIndex = _map.length;
-    String lowestRank = _map.length.toString();
+    print('compIndex = $compIndex');
+    String lowestRankValueString = _map.length.toString();
+    int lowestRankValueInt = _map.length;
     int outerForLoopIndexInt = _map.length;
 
-    /// lowest rank
+    /// outer for loop
     for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-
-    /// get the next lowest rank
-    compIndex = _map.length;
-    var tempValue = _map.length - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    tempValue = tempValue - 1;
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
-    /// get the next lowest rank
-    compIndex = _map.length;
-    if (tempValue > 0) {
-      tempValue = tempValue - 1;
-    }
-    lowestRank = tempValue.toString();
-    for (int i = 0; i < _map.length; i++) {
-      compIndex--;
-      if ((_map[competitors[compIndex]]['comprank']) == (lowestRank)) {
-        jsonRaceResults.add(
-            'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
-      } //if
-    } //for
+      print('outerForLoopIndexInt = $outerForLoopIndexInt ');
+      outerForLoopIndexInt--;
+      for (int i = 0; i < _map.length; i++) {
+        print('compIndex inner For loop = $compIndex');
+        compIndex--;
+        // if (compIndex == 0) {
+        //   compIndex = _map.length - 1;
+        // }
+        if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+          jsonRaceResults.add(
+              'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+        } //if
+      } // inner for
+      compIndex = _map.length;
+      lowestRankValueInt--;
+      lowestRankValueString = lowestRankValueInt.toString();
+      // print('lowestRankValueString = $lowestRankValueString');
+    } // outer for
+    //
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // var tempValue = _map.length - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // tempValue = tempValue - 1;
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
+    // /// get the next lowest rank
+    // compIndex = _map.length;
+    // if (tempValue > 0) {
+    //   tempValue = tempValue - 1;
+    // }
+    // lowestRankValueString = tempValue.toString();
+    // for (int i = 0; i < _map.length; i++) {
+    //   compIndex--;
+    //   if ((_map[competitors[compIndex]]['comprank']) == (lowestRankValueString)) {
+    //     jsonRaceResults.add(
+    //         'Rank: ${_map[competitors[compIndex]]['comprank']}, Sail No: ${_map[competitors[compIndex]]['compsailno']}, Skipper: ${_map[competitors[compIndex]]['comphelmname']}, Crew: ${_map[competitors[compIndex]]['compcrewname']}, Total: ${_map[competitors[compIndex]]['comptotal']}, Net: ${_map[competitors[compIndex]]['compnett']}, Handicap: ${_map[competitors[compIndex]]['comprating']}, Notes: ${_map[competitors[compIndex]]['compnotes']} ');
+    //   } //if
+    // } //for
     setState(() {});
   } // readJson
 
