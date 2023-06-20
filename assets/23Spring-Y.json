@@ -2,8 +2,8 @@
 "header" : {
 "version" : "2.29.6",
 "generator" : "sailwave",
-"date" : " 5/06/23",
-"time" : " 9:55:35"
+"date" : "19/06/23",
+"time" : " 6:22:44"
 },
 "globals" : {
 "serallowfixedflights" : "0",
@@ -117,7 +117,7 @@
 "scrwindstrengths" : "0-1,2-3,4,5-9",
 "scrupdateratings" : "No",
 "scrbackcalcpercent" : "0",
-"scrdiscardlist" : "0,0,0,0,1,2,3,4",
+"scrdiscardlist" : "0,0,0,0,0,1,2,3,4,5",
 "scrflights" : "No",
 "scrfinals" : "No",
 "scrfinalsstickyq" : "No",
@@ -303,103 +303,9 @@
 "prizes" : {
 },
 "competitors" : {
-"9" : {
-"comptotal" : "60",
-"compnett" : "40",
-"comprank" : "9",
-"compsailno" : "2592",
-"compclass" : "Y-Flyer",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Scott Eversole",
-"compcrewname" : "Makenna Eversole",
-"comphigh" : "0"
-},
-"8" : {
-"comptotal" : "48",
-"compnett" : "28",
-"comprank" : "8",
-"compsailno" : "2537",
-"compclass" : "Y-Flyer",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Eric Anderson",
-"compcrewname" : "Lauren Anderson",
-"comphigh" : "0"
-},
-"7" : {
-"comptotal" : "46",
-"compnett" : "26",
-"comprank" : "7",
-"compsailno" : "2534",
-"compclass" : "Y-Flyer",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Phil Robertson",
-"compcrewname" : "Landon",
-"comphigh" : "0"
-},
-"6" : {
-"comptotal" : "41",
-"compnett" : "21",
-"comprank" : "6",
-"compsailno" : "2384",
-"compclass" : "Y-Flyer",
-"compclub" : "HSA",
-"comptally" : "5",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Curt Donahue",
-"comphigh" : "0"
-},
-"5" : {
-"comptotal" : "36",
-"compnett" : "16",
-"comprank" : "5",
-"compsailno" : "2676",
-"compclass" : "Y-Flyer",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Brett Hart",
-"compcrewname" : "Maggie Hart",
-"comphigh" : "0"
-},
-"4" : {
-"comptotal" : "33",
-"compnett" : "13",
-"comprank" : "4",
-"compsailno" : "2740",
-"compclass" : "Y-Flyer",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Mike Stratton",
-"compcrewname" : "Them",
-"comphigh" : "0"
-},
-"3" : {
-"comptotal" : "32",
-"compnett" : "12",
-"comprank" : "3",
-"compsailno" : "2731",
-"compclass" : "Y-Flyer",
-"compclub" : "HSA",
-"comptally" : "5",
-"compexclude" : "0",
-"compalias" : "0",
-"compmedicalflag" : "0",
-"comphelmname" : "Charlie DeArmon",
-"compcrewname" : "Amy Marks",
-"comphigh" : "0"
-},
-"2" : {
-"comptotal" : "28",
-"compnett" : "8",
+"11" : {
+"comptotal" : "30",
+"compnett" : "7",
 "compboat" : "Summerfair",
 "comprank" : "2",
 "compsailno" : "2699",
@@ -413,9 +319,37 @@
 "compcrewname" : "Bobbie Bode",
 "comphigh" : "0"
 },
-"1" : {
-"comptotal" : "8",
-"compnett" : "4",
+"15" : {
+"comptotal" : "47",
+"compnett" : "21",
+"comprank" : "3",
+"compsailno" : "2384",
+"compclass" : "Y-Flyer",
+"compclub" : "HSA",
+"comptally" : "5",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Curt Donahue",
+"compcrewname" : "Chris Donahue",
+"comphigh" : "0"
+},
+"37" : {
+"comptotal" : "53",
+"compnett" : "23",
+"comprank" : "6",
+"compsailno" : "2740",
+"compclass" : "Y-Flyer",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Mike Stratton",
+"compcrewname" : "Them",
+"comphigh" : "0"
+},
+"42" : {
+"comptotal" : "28",
+"compnett" : "6",
 "comprank" : "1",
 "compsailno" : "2702",
 "compclass" : "Y-Flyer",
@@ -424,6 +358,73 @@
 "compmedicalflag" : "0",
 "comphelmname" : "Pete Peters",
 "compcrewname" : "Rose Schultz",
+"comphigh" : "0"
+},
+"48" : {
+"comptotal" : "56",
+"compnett" : "26",
+"comprank" : "7",
+"compsailno" : "2676",
+"compclass" : "Y-Flyer",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Brett Hart",
+"compcrewname" : "Maggie Hart",
+"comphigh" : "0"
+},
+"49" : {
+"comptotal" : "80",
+"compnett" : "50",
+"comprank" : "9",
+"compsailno" : "2592",
+"compclass" : "Y-Flyer",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Scott Eversole",
+"compcrewname" : "Makenna Eversole",
+"comphigh" : "0"
+},
+"56" : {
+"comptotal" : "52",
+"compnett" : "22",
+"comprank" : "4",
+"compsailno" : "2537",
+"compclass" : "Y-Flyer",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Eric Anderson",
+"compcrewname" : "Lauren Anderson",
+"comphigh" : "0"
+},
+"62" : {
+"comptotal" : "52",
+"compnett" : "22",
+"comprank" : "5",
+"compsailno" : "2731",
+"compclass" : "Y-Flyer",
+"compclub" : "HSA",
+"comptally" : "5",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Charlie DeArmon",
+"compcrewname" : "Amy Marks",
+"comphigh" : "0"
+},
+"63" : {
+"comptotal" : "66",
+"compnett" : "36",
+"comprank" : "8",
+"compsailno" : "2534",
+"compclass" : "Y-Flyer",
+"compexclude" : "0",
+"compalias" : "0",
+"compmedicalflag" : "0",
+"comphelmname" : "Phil Robertson",
+"compcrewname" : "Landon",
 "comphigh" : "0"
 }
 },
@@ -472,13 +473,27 @@
 },
 "50" : {
 "racerank" : "7",
-"racesailed" : "0",
+"racesailed" : "1",
 "starts" : {
 "1" : "||Place|Start 1|||0||0|0||||1"
 }
 },
 "51" : {
 "racerank" : "8",
+"racesailed" : "1",
+"starts" : {
+"1" : "||Place|Start 1|||0||0|0||||1"
+}
+},
+"64" : {
+"racerank" : "9",
+"racesailed" : "0",
+"starts" : {
+"1" : "||Place|Start 1|||0||0|0||||1"
+}
+},
+"65" : {
+"racerank" : "10",
 "racesailed" : "0",
 "starts" : {
 "1" : "||Place|Start 1|||0||0|0||||1"
@@ -491,7 +506,7 @@
 "racHandle" : "1",
 "rpts" : "3",
 "rpos" : "3",
-"rdisc" : "0",
+"rdisc" : "1",
 "rrecpos" : "3",
 "rrestyp" : "1",
 "srat" : "0",
@@ -555,31 +570,53 @@
 "7" : {
 "comHandle" : "11",
 "racHandle" : "50",
+"rpts" : "1",
+"rpos" : "1",
 "rdisc" : "0",
-"rrestyp" : "0",
+"rrecpos" : "1",
+"rrestyp" : "1",
 "srat" : "0",
 "rrset" : "0"
 },
 "8" : {
 "comHandle" : "11",
 "racHandle" : "51",
+"rpts" : "1",
+"rpos" : "1",
+"rdisc" : "0",
+"rrecpos" : "1",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"9" : {
+"comHandle" : "11",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"9" : {
+"10" : {
+"comHandle" : "11",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"11" : {
 "comHandle" : "15",
 "racHandle" : "1",
 "rpts" : "6",
 "rpos" : "6",
-"rdisc" : "0",
+"rdisc" : "1",
 "rrecpos" : "6",
 "rrestyp" : "1",
 "srat" : "0",
 "rrset" : "0"
 },
-"10" : {
+"12" : {
 "comHandle" : "15",
 "racHandle" : "2",
 "rpts" : "5",
@@ -590,7 +627,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"11" : {
+"13" : {
 "comHandle" : "15",
 "racHandle" : "26",
 "rcod" : "DNC",
@@ -601,7 +638,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"12" : {
+"14" : {
 "comHandle" : "15",
 "racHandle" : "27",
 "rcod" : "DNC",
@@ -612,7 +649,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"13" : {
+"15" : {
 "comHandle" : "15",
 "racHandle" : "28",
 "rpts" : "5",
@@ -623,7 +660,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"14" : {
+"16" : {
 "comHandle" : "15",
 "racHandle" : "29",
 "rpts" : "5",
@@ -634,23 +671,45 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"15" : {
+"17" : {
 "comHandle" : "15",
 "racHandle" : "50",
+"rpts" : "3",
+"rpos" : "3",
 "rdisc" : "0",
-"rrestyp" : "0",
+"rrecpos" : "3",
+"rrestyp" : "1",
 "srat" : "0",
 "rrset" : "0"
 },
-"16" : {
+"18" : {
 "comHandle" : "15",
 "racHandle" : "51",
+"rpts" : "3",
+"rpos" : "3",
+"rdisc" : "0",
+"rrecpos" : "3",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"19" : {
+"comHandle" : "15",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"17" : {
+"20" : {
+"comHandle" : "15",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"21" : {
 "comHandle" : "37",
 "racHandle" : "1",
 "rpts" : "2",
@@ -661,7 +720,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"18" : {
+"22" : {
 "comHandle" : "37",
 "racHandle" : "2",
 "rpts" : "6",
@@ -672,7 +731,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"19" : {
+"23" : {
 "comHandle" : "37",
 "racHandle" : "26",
 "rcod" : "DNC",
@@ -683,7 +742,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"20" : {
+"24" : {
 "comHandle" : "37",
 "racHandle" : "27",
 "rcod" : "DNC",
@@ -694,7 +753,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"21" : {
+"25" : {
 "comHandle" : "37",
 "racHandle" : "28",
 "rpts" : "4",
@@ -705,47 +764,9 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"22" : {
+"26" : {
 "comHandle" : "37",
 "racHandle" : "29",
-"rpts" : "1",
-"rpos" : "1",
-"rdisc" : "0",
-"rrecpos" : "1",
-"rrestyp" : "1",
-"srat" : "0",
-"rrset" : "0"
-},
-"23" : {
-"comHandle" : "37",
-"racHandle" : "50",
-"rdisc" : "0",
-"rrestyp" : "0",
-"srat" : "0",
-"rrset" : "0"
-},
-"24" : {
-"comHandle" : "37",
-"racHandle" : "51",
-"rdisc" : "0",
-"rrestyp" : "0",
-"srat" : "0",
-"rrset" : "0"
-},
-"25" : {
-"comHandle" : "42",
-"racHandle" : "1",
-"rpts" : "1",
-"rpos" : "1",
-"rdisc" : "0",
-"rrecpos" : "1",
-"rrestyp" : "1",
-"srat" : "0",
-"rrset" : "0"
-},
-"26" : {
-"comHandle" : "42",
-"racHandle" : "2",
 "rpts" : "1",
 "rpos" : "1",
 "rdisc" : "0",
@@ -755,6 +776,66 @@
 "rrset" : "0"
 },
 "27" : {
+"comHandle" : "37",
+"racHandle" : "50",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"28" : {
+"comHandle" : "37",
+"racHandle" : "51",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"29" : {
+"comHandle" : "37",
+"racHandle" : "64",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"30" : {
+"comHandle" : "37",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"31" : {
+"comHandle" : "42",
+"racHandle" : "1",
+"rpts" : "1",
+"rpos" : "1",
+"rdisc" : "0",
+"rrecpos" : "1",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"32" : {
+"comHandle" : "42",
+"racHandle" : "2",
+"rpts" : "1",
+"rpos" : "1",
+"rdisc" : "0",
+"rrecpos" : "1",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"33" : {
 "comHandle" : "42",
 "racHandle" : "26",
 "rpts" : "1",
@@ -765,7 +846,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"28" : {
+"34" : {
 "comHandle" : "42",
 "racHandle" : "27",
 "rpts" : "2",
@@ -776,7 +857,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"29" : {
+"35" : {
 "comHandle" : "42",
 "racHandle" : "28",
 "rpts" : "1",
@@ -787,34 +868,56 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"30" : {
+"36" : {
 "comHandle" : "42",
 "racHandle" : "29",
 "rpts" : "2",
 "rpos" : "2",
-"rdisc" : "1",
+"rdisc" : "0",
 "rrecpos" : "2",
 "rrestyp" : "1",
 "srat" : "0",
 "rrset" : "0"
 },
-"31" : {
+"37" : {
 "comHandle" : "42",
 "racHandle" : "50",
-"rdisc" : "0",
-"rrestyp" : "0",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "1",
+"rrestyp" : "3",
 "srat" : "0",
-"rrset" : "0"
+"rrset" : "1"
 },
-"32" : {
+"38" : {
 "comHandle" : "42",
 "racHandle" : "51",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"39" : {
+"comHandle" : "42",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"33" : {
+"40" : {
+"comHandle" : "42",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"41" : {
 "comHandle" : "48",
 "racHandle" : "1",
 "rpts" : "5",
@@ -825,7 +928,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"34" : {
+"42" : {
 "comHandle" : "48",
 "racHandle" : "2",
 "rpts" : "3",
@@ -836,231 +939,297 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"35" : {
-"comHandle" : "48",
-"racHandle" : "26",
-"rpts" : "4",
-"rpos" : "4",
-"rdisc" : "0",
-"rrecpos" : "4",
-"rrestyp" : "1",
-"srat" : "0",
-"rrset" : "0"
-},
-"36" : {
-"comHandle" : "48",
-"racHandle" : "27",
-"rpts" : "4",
-"rpos" : "4",
-"rdisc" : "0",
-"rrecpos" : "4",
-"rrestyp" : "1",
-"srat" : "0",
-"rrset" : "0"
-},
-"37" : {
-"comHandle" : "48",
-"racHandle" : "28",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "6",
-"rdisc" : "1",
-"rrestyp" : "3",
-"srat" : "0",
-"rrset" : "1"
-},
-"38" : {
-"comHandle" : "48",
-"racHandle" : "29",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "6",
-"rdisc" : "1",
-"rrestyp" : "3",
-"srat" : "0",
-"rrset" : "1"
-},
-"39" : {
-"comHandle" : "48",
-"racHandle" : "50",
-"rdisc" : "0",
-"rrestyp" : "0",
-"srat" : "0",
-"rrset" : "0"
-},
-"40" : {
-"comHandle" : "48",
-"racHandle" : "51",
-"rdisc" : "0",
-"rrestyp" : "0",
-"srat" : "0",
-"rrset" : "0"
-},
-"41" : {
-"comHandle" : "49",
-"racHandle" : "1",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "7",
-"rdisc" : "1",
-"rrestyp" : "3",
-"srat" : "0",
-"rrset" : "1"
-},
-"42" : {
-"comHandle" : "49",
-"racHandle" : "2",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "7",
-"rdisc" : "1",
-"rrestyp" : "3",
-"srat" : "0",
-"rrset" : "1"
-},
 "43" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "26",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "5",
+"rpts" : "4",
+"rpos" : "4",
 "rdisc" : "0",
-"rrestyp" : "3",
+"rrecpos" : "4",
+"rrestyp" : "1",
 "srat" : "0",
-"rrset" : "1"
+"rrset" : "0"
 },
 "44" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "27",
-"rcod" : "DNC",
-"rpts" : "10",
-"rpos" : "5",
+"rpts" : "4",
+"rpos" : "4",
 "rdisc" : "0",
-"rrestyp" : "3",
+"rrecpos" : "4",
+"rrestyp" : "1",
 "srat" : "0",
-"rrset" : "1"
+"rrset" : "0"
 },
 "45" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "28",
 "rcod" : "DNC",
 "rpts" : "10",
 "rpos" : "6",
-"rdisc" : "0",
+"rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "46" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "29",
 "rcod" : "DNC",
 "rpts" : "10",
 "rpos" : "6",
-"rdisc" : "0",
+"rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "47" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "50",
-"rdisc" : "0",
-"rrestyp" : "0",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "1",
+"rrestyp" : "3",
 "srat" : "0",
-"rrset" : "0"
+"rrset" : "1"
 },
 "48" : {
-"comHandle" : "49",
+"comHandle" : "48",
 "racHandle" : "51",
-"rdisc" : "0",
-"rrestyp" : "0",
-"srat" : "0",
-"rrset" : "0"
-},
-"49" : {
-"comHandle" : "56",
-"racHandle" : "1",
-"rpts" : "4",
+"rcod" : "DNC",
+"rpts" : "10",
 "rpos" : "4",
 "rdisc" : "0",
-"rrecpos" : "4",
-"rrestyp" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"49" : {
+"comHandle" : "48",
+"racHandle" : "64",
+"rdisc" : "0",
+"rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
 "50" : {
-"comHandle" : "56",
-"racHandle" : "2",
-"rpts" : "4",
-"rpos" : "4",
+"comHandle" : "48",
+"racHandle" : "65",
 "rdisc" : "0",
-"rrecpos" : "4",
-"rrestyp" : "1",
+"rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
 "51" : {
-"comHandle" : "56",
-"racHandle" : "26",
+"comHandle" : "49",
+"racHandle" : "1",
 "rcod" : "DNC",
 "rpts" : "10",
-"rpos" : "5",
+"rpos" : "7",
 "rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "52" : {
-"comHandle" : "56",
-"racHandle" : "27",
+"comHandle" : "49",
+"racHandle" : "2",
 "rcod" : "DNC",
 "rpts" : "10",
-"rpos" : "5",
+"rpos" : "7",
 "rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "53" : {
-"comHandle" : "56",
-"racHandle" : "28",
+"comHandle" : "49",
+"racHandle" : "26",
 "rcod" : "DNC",
 "rpts" : "10",
-"rpos" : "6",
-"rdisc" : "0",
+"rpos" : "5",
+"rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "54" : {
-"comHandle" : "56",
-"racHandle" : "29",
+"comHandle" : "49",
+"racHandle" : "27",
 "rcod" : "DNC",
 "rpts" : "10",
-"rpos" : "6",
+"rpos" : "5",
 "rdisc" : "0",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
 "55" : {
-"comHandle" : "56",
-"racHandle" : "50",
+"comHandle" : "49",
+"racHandle" : "28",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "6",
 "rdisc" : "0",
-"rrestyp" : "0",
+"rrestyp" : "3",
 "srat" : "0",
-"rrset" : "0"
+"rrset" : "1"
 },
 "56" : {
-"comHandle" : "56",
+"comHandle" : "49",
+"racHandle" : "29",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "6",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"57" : {
+"comHandle" : "49",
+"racHandle" : "50",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"58" : {
+"comHandle" : "49",
 "racHandle" : "51",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"59" : {
+"comHandle" : "49",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"57" : {
+"60" : {
+"comHandle" : "49",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"61" : {
+"comHandle" : "56",
+"racHandle" : "1",
+"rpts" : "4",
+"rpos" : "4",
+"rdisc" : "0",
+"rrecpos" : "4",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"62" : {
+"comHandle" : "56",
+"racHandle" : "2",
+"rpts" : "4",
+"rpos" : "4",
+"rdisc" : "0",
+"rrecpos" : "4",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"63" : {
+"comHandle" : "56",
+"racHandle" : "26",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "5",
+"rdisc" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"64" : {
+"comHandle" : "56",
+"racHandle" : "27",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "5",
+"rdisc" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"65" : {
+"comHandle" : "56",
+"racHandle" : "28",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "6",
+"rdisc" : "1",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"66" : {
+"comHandle" : "56",
+"racHandle" : "29",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "6",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"67" : {
+"comHandle" : "56",
+"racHandle" : "50",
+"rpts" : "2",
+"rpos" : "2",
+"rdisc" : "0",
+"rrecpos" : "2",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"68" : {
+"comHandle" : "56",
+"racHandle" : "51",
+"rpts" : "2",
+"rpos" : "2",
+"rdisc" : "0",
+"rrecpos" : "2",
+"rrestyp" : "1",
+"srat" : "0",
+"rrset" : "0"
+},
+"69" : {
+"comHandle" : "56",
+"racHandle" : "64",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"70" : {
+"comHandle" : "56",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"71" : {
 "comHandle" : "62",
 "racHandle" : "1",
 "rcod" : "DNC",
@@ -1071,7 +1240,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"58" : {
+"72" : {
 "comHandle" : "62",
 "racHandle" : "2",
 "rcod" : "DNC",
@@ -1082,7 +1251,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"59" : {
+"73" : {
 "comHandle" : "62",
 "racHandle" : "26",
 "rpts" : "3",
@@ -1093,7 +1262,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"60" : {
+"74" : {
 "comHandle" : "62",
 "racHandle" : "27",
 "rpts" : "3",
@@ -1104,7 +1273,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"61" : {
+"75" : {
 "comHandle" : "62",
 "racHandle" : "28",
 "rpts" : "3",
@@ -1115,7 +1284,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"62" : {
+"76" : {
 "comHandle" : "62",
 "racHandle" : "29",
 "rpts" : "3",
@@ -1126,23 +1295,45 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"63" : {
+"77" : {
 "comHandle" : "62",
 "racHandle" : "50",
-"rdisc" : "0",
-"rrestyp" : "0",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "1",
+"rrestyp" : "3",
 "srat" : "0",
-"rrset" : "0"
+"rrset" : "1"
 },
-"64" : {
+"78" : {
 "comHandle" : "62",
 "racHandle" : "51",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"79" : {
+"comHandle" : "62",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"65" : {
+"80" : {
+"comHandle" : "62",
+"racHandle" : "65",
+"rdisc" : "0",
+"rrestyp" : "0",
+"srat" : "0",
+"rrset" : "0"
+},
+"81" : {
 "comHandle" : "63",
 "racHandle" : "1",
 "rcod" : "DNC",
@@ -1153,7 +1344,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"66" : {
+"82" : {
 "comHandle" : "63",
 "racHandle" : "2",
 "rcod" : "DNC",
@@ -1164,18 +1355,18 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"67" : {
+"83" : {
 "comHandle" : "63",
 "racHandle" : "26",
 "rcod" : "DNC",
 "rpts" : "10",
 "rpos" : "5",
-"rdisc" : "0",
+"rdisc" : "1",
 "rrestyp" : "3",
 "srat" : "0",
 "rrset" : "1"
 },
-"68" : {
+"84" : {
 "comHandle" : "63",
 "racHandle" : "27",
 "rcod" : "DNC",
@@ -1186,7 +1377,7 @@
 "srat" : "0",
 "rrset" : "1"
 },
-"69" : {
+"85" : {
 "comHandle" : "63",
 "racHandle" : "28",
 "rpts" : "2",
@@ -1197,7 +1388,7 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"70" : {
+"86" : {
 "comHandle" : "63",
 "racHandle" : "29",
 "rpts" : "4",
@@ -1208,17 +1399,39 @@
 "srat" : "0",
 "rrset" : "0"
 },
-"71" : {
+"87" : {
 "comHandle" : "63",
 "racHandle" : "50",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"88" : {
+"comHandle" : "63",
+"racHandle" : "51",
+"rcod" : "DNC",
+"rpts" : "10",
+"rpos" : "4",
+"rdisc" : "0",
+"rrestyp" : "3",
+"srat" : "0",
+"rrset" : "1"
+},
+"89" : {
+"comHandle" : "63",
+"racHandle" : "64",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
 "rrset" : "0"
 },
-"72" : {
+"90" : {
 "comHandle" : "63",
-"racHandle" : "51",
+"racHandle" : "65",
 "rdisc" : "0",
 "rrestyp" : "0",
 "srat" : "0",
