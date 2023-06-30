@@ -58,40 +58,6 @@ class _RaceDutyScreenState extends State<RaceDutyScreen> {
           height: 25.0,
         ),
       ),
-      // body: ListView.builder(
-      //   itemCount: rcDutySchedule.length,
-      //   prototypeItem: ListTile(
-      //     title: Text(rcDutySchedule.first),
-      //   ),
-      //   itemBuilder: (context, index) {
-      //     return Card(
-      //       margin: EdgeInsets.only(left: 5.0, right: 5.0, top: 0.0, bottom: 5.0),
-      //       elevation: 20.0,
-      //       color: Color(lightestBlue),
-      //       child: ListTile(
-      //         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      //         minVerticalPadding: 0.0,
-      //         minLeadingWidth: 0.0,
-      //         title: AutoSizeText(
-      //           rcDutySchedule[index],
-      //           style: const TextStyle(color: Color(kFontColor), fontFamily: kFontTypeForApp, fontSize: 14, fontWeight: FontWeight.bold),
-      //           maxLines: 4,
-      //           maxFontSize: 16,
-      //           minFontSize: 12,
-      //           textAlign: TextAlign.left,
-      //           // overflow: TextOverflow.ellipsis,
-      //         ),
-      //         // subtitle: Text(
-      //         //   'subtitle test',
-      //         //   style: TextStyle(
-      //         //     color: Colors.white,
-      //         //   ),
-      //         // ),
-      //         tileColor: const Color(darkestBlue),
-      //       ),
-      //     );
-      //   },
-      // ),
     );
   } //Widget
 } //class

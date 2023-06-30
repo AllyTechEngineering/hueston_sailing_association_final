@@ -89,8 +89,8 @@ class _PublicSailing4ScreenState extends State<PublicSailing4Screen> {
   Widget publicSailingProgram = const Padding(
     padding: EdgeInsets.all(20.0),
     child: Text(
-      kSailingExperienceText,
-      style: TextStyle(fontSize: 18, color: Colors.black),
+      kSailingExperience,
+      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
       softWrap: true,
     ),
   );
