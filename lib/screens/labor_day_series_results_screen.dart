@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utilities/constants.dart';
 import '../utilities/widgets.dart';
+import 'about_developer.dart';
 
 class LaborDaySeriesResults extends StatefulWidget {
   static String id = 'labor_day_series_results_screen';
@@ -36,6 +37,17 @@ class _LaborDaySeriesResultsState extends State<LaborDaySeriesResults> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

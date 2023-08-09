@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utilities/widgets.dart';
 import '/utilities/constants.dart';
+import 'about_developer.dart';
 
 class PublicSailingProgramScreen extends StatefulWidget {
   static String id = 'public_sailing_program_screen';
@@ -31,6 +32,17 @@ class _PublicSailingProgramScreenState extends State<PublicSailingProgramScreen>
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

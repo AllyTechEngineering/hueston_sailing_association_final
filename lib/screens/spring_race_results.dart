@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utilities/constants.dart';
 import '../utilities/widgets.dart';
+import 'about_developer.dart';
 
 class SpringRaceResults extends StatefulWidget {
   static String id = 'spring_race_results';
@@ -30,6 +31,17 @@ class _SpringRaceResultsState extends State<SpringRaceResults> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

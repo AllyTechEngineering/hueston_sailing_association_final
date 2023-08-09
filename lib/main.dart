@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hueston_sailing_association_final/screens/about_developer.dart';
 import '../screens/4th_of_july_results.dart';
 import '../screens/fall_series_results_screen.dart';
 import '../screens/labor_day_series_results_screen.dart';
@@ -66,6 +67,7 @@ class _HsaAppState extends State<HsaApp> {
         FourthOfJulyRaceResults.id: (context) => const FourthOfJulyRaceResults(),
         FallSeriesRaceResults.id: (context) => const FallSeriesRaceResults(),
         LaborDaySeriesResults.id: (context) => const LaborDaySeriesResults(),
+        AboutDeveloperScreen.id: (context) => const AboutDeveloperScreen(),
       },
     );
   } //Widget Build

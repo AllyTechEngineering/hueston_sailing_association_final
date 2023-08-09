@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../utilities/constants.dart';
+import 'about_developer.dart';
 
 class ScreenRaceResultsAll extends StatefulWidget {
   static String id = 'screen_race_results_all';
@@ -327,6 +328,17 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         scrollDirection: axisDirectionToAxis(AxisDirection.down),

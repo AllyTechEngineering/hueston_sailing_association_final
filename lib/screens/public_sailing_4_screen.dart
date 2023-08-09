@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '/utilities/constants.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'about_developer.dart';
+
 class PublicSailing4Screen extends StatefulWidget {
   static String id = 'public_sailing_4_screen';
 
@@ -31,6 +33,17 @@ class _PublicSailing4ScreenState extends State<PublicSailing4Screen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

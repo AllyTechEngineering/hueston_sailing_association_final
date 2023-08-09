@@ -3,6 +3,8 @@ import '/utilities/constants.dart';
 // import 'package:http/http.dart' as http;
 import 'package:url_launcher/url_launcher.dart';
 
+import 'about_developer.dart';
+
 class MembershipScreen extends StatefulWidget {
   static String id = 'membership_screen';
 
@@ -32,6 +34,17 @@ class _MembershipScreenState extends State<MembershipScreen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

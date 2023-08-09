@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utilities/constants.dart';
 import '../utilities/widgets.dart';
+import 'about_developer.dart';
 
 class MemorialDayRaceResults extends StatefulWidget {
   static String id = 'memorial_day_series_results';
@@ -36,6 +37,17 @@ class _MemorialDayRaceResultsState extends State<MemorialDayRaceResults> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

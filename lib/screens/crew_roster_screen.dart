@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/crew_data.dart';
 import '/utilities/constants.dart';
+import 'about_developer.dart';
 
 class CrewRosterScreen extends StatefulWidget {
   static String id = 'crew_roster_screen';
@@ -31,6 +32,17 @@ class _CrewRosterScreenState extends State<CrewRosterScreen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         padding: const EdgeInsets.all(8),

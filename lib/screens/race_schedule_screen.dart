@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/race_schedule.dart';
 import '/utilities/constants.dart';
+import 'about_developer.dart';
 
 class RaceScheduleScreen extends StatefulWidget {
   static String id = 'race_schedule_screen';
@@ -32,6 +33,17 @@ class _RaceScheduleScreenState extends State<RaceScheduleScreen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         padding: const EdgeInsets.all(8),

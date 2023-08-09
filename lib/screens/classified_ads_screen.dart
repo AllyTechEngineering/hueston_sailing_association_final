@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/for_sale.dart';
 import '/utilities/constants.dart';
+import 'about_developer.dart';
 
 class ClassifiedAdsScreen extends StatefulWidget {
   static String id = 'classified_ads_screen';
@@ -31,6 +32,17 @@ class _ClassifiedAdsScreenState extends State<ClassifiedAdsScreen> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         padding: const EdgeInsets.all(8),

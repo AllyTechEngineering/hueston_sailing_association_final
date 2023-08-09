@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
-import '../models/social_calendar.dart';
+import '../models/about_developer.dart';
 import '/utilities/constants.dart';
-import 'about_developer.dart';
 
-class SocialEventsScreen extends StatefulWidget {
-  static String id = 'social_events_screen';
+class AboutDeveloperScreen extends StatefulWidget {
+  static String id = 'about_developer_screen';
 
-  const SocialEventsScreen({super.key});
+  const AboutDeveloperScreen({super.key});
 
   @override
-  State<SocialEventsScreen> createState() => _SocialEventsScreenState();
+  State<AboutDeveloperScreen> createState() => _AboutDeveloperScreenState();
 }
 
-class _SocialEventsScreenState extends State<SocialEventsScreen> {
-  // Social
+class _AboutDeveloperScreenState extends State<AboutDeveloperScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +21,7 @@ class _SocialEventsScreenState extends State<SocialEventsScreen> {
         title: const FittedBox(
           fit: BoxFit.scaleDown,
           child: Text(
-            'Social Events Calendar',
+            'About Developer',
             style: TextStyle(
               fontFamily: kFontTypeForApp,
               color: Color(lightBlue),
@@ -33,31 +31,22 @@ class _SocialEventsScreenState extends State<SocialEventsScreen> {
             ),
           ),
         ),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(
-              Icons.settings,
-              color: Colors.white,
-            ),
-            onPressed: () {
-              Navigator.pushNamed(context, AboutDeveloperScreen.id);
-            },
-          ),
-        ],
       ),
       body: ListView.separated(
         padding: const EdgeInsets.all(8),
-        itemCount: socialCalendarText.length,
+        itemCount: aboutDeveloper.length,
         itemBuilder: (BuildContext context, int index) {
           return Container(
             decoration: styleBoxDecoration,
-            height: kContainerHeight,
+            height: 90,
+            // color: Colors.white,
+            // color: Colors.amber[colorCodes[index]],
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  socialCalendarText[index],
-                  style: const TextStyle(color: Color(kFontColor), fontFamily: kFontTypeForApp, fontSize: kContainerFontHeight, fontWeight: FontWeight.bold),
+                  aboutDeveloper[index],
+                  style: const TextStyle(color: Color(kFontColor), fontFamily: kFontTypeForApp, fontSize: 25.0, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),
               ),

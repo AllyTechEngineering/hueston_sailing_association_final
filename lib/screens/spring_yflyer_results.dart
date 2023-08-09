@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../utilities/constants.dart';
+import 'about_developer.dart';
 
 class SpringYflyerResults extends StatefulWidget {
   static String id = 'spring_yflyer_results';
@@ -55,6 +56,17 @@ class _SpringYflyerResultsState extends State<SpringYflyerResults> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         padding: const EdgeInsets.all(8),

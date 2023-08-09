@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../utilities/widgets.dart';
 import '/utilities/constants.dart';
+import 'about_developer.dart';
 
 class RaceResults extends StatefulWidget {
   static String id = 'race_results_screen';
@@ -30,6 +31,17 @@ class _RaceResultsState extends State<RaceResults> {
             ),
           ),
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(
+              Icons.settings,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              Navigator.pushNamed(context, AboutDeveloperScreen.id);
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(

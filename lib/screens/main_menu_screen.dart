@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hueston_sailing_association_final/screens/about_developer.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../utilities/widgets.dart';
 import '/utilities/constants.dart';
@@ -273,6 +274,17 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
               ),
             ),
           ),
+          actions: <Widget>[
+            IconButton(
+              icon: const Icon(
+                Icons.settings,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.pushNamed(context, AboutDeveloperScreen.id);
+              },
+            ),
+          ],
         ),
         body: Container(
           decoration: const BoxDecoration(
