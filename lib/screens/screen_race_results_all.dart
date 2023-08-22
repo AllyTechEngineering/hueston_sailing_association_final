@@ -260,7 +260,7 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
         readJson(raceFileNameValue);
         break;
       case '18':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Sunfish-Augusto.json';
         raceNameText = 'Augusto Sunfish Results';
         readJson(raceFileNameValue);
         break;
