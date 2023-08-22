@@ -245,17 +245,17 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
         readJson(raceFileNameValue);
         break;
       case '15':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Fall-Hobie.json';
         raceNameText = 'Fall Hobie Results';
         readJson(raceFileNameValue);
         break;
       case '16':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Fall-Y.json';
         raceNameText = 'Fall Y-Flyer Results';
         readJson(raceFileNameValue);
         break;
       case '17':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Fall-Handicap.json';
         raceNameText = 'Fall Handicap Results';
         readJson(raceFileNameValue);
         break;
