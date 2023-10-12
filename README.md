@@ -1,16 +1,13 @@
 # hueston_sailing_association_final
 
-A new Flutter project.
+Flutter/Dart app for iOS and Android to serve the nonprofit club
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Imports JSON racing data file to update results in the app.
+- Provide URL links to the clubs existing website.
+- Uses named routes as taught by Dr. Yu in her flutter class.
+### Notes:
+- In early 2024:
+  - the app will be refactored to use Firebase for authentication.
+  - Cloud Firestore will be used for data storage to improve real time updates.
+  - The app will also be refactored to use Bloc for theme, navigation and separation of data/logic/UI.
