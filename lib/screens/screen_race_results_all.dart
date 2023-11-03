@@ -33,17 +33,17 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
     // print('This is the _map of the data from the decoded JSON file before sort: $_map');
     List competitors = _map.keys.toList();
     int compIndex = _map.length;
-    print('compIndex = $compIndex');
+    // print('compIndex = $compIndex');
     // String lowestRankValueString = _map.length.toString();
     // int lowestRankValueInt = _map.length;
     String lowestRankValueString = '1';
     int lowestRankValueInt = 1;
-    int outerForLoopIndexInt = _map.length;
+    // int outerForLoopIndexInt = _map.length;
 
     /// outer for loop
     for (int i = 0; i < _map.length; i++) {
       // print('outerForLoopIndexInt = $outerForLoopIndexInt ');
-      outerForLoopIndexInt--;
+      // outerForLoopIndexInt--;
       for (int i = 0; i < _map.length; i++) {
         // print('compIndex inner For loop = $compIndex');
         compIndex--;
@@ -265,22 +265,22 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
         readJson(raceFileNameValue);
         break;
       case '19':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23CruiserFest.json';
         raceNameText = 'CruiserFest Results';
         readJson(raceFileNameValue);
         break;
       case '20':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23LaborDay-Hobie.json';
         raceNameText = 'Labor Day Hobie Results';
         readJson(raceFileNameValue);
         break;
       case '21':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23LaborDay-Y.json';
         raceNameText = 'Labor Day Y-Flyer Results';
         readJson(raceFileNameValue);
         break;
       case '22':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23LaborDay-Handicap.json';
         raceNameText = 'Labor Day Handicap Results';
         readJson(raceFileNameValue);
         break;
@@ -290,12 +290,12 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
         readJson(raceFileNameValue);
         break;
       case '24':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Round-Lake.json';
         raceNameText = 'Around the Lake Results';
         readJson(raceFileNameValue);
         break;
       case '25':
-        raceFileNameValue = 'assets/dummy_data.json';
+        raceFileNameValue = 'assets/23Sunfish-OktoberFast.json';
         raceNameText = 'OktoberFast Sunfish Results';
         readJson(raceFileNameValue);
         break;
@@ -356,7 +356,11 @@ class _ScreenRaceResultsAllState extends State<ScreenRaceResultsAll> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   jsonRaceResults[index],
-                  style: const TextStyle(color: Color(kFontColor), fontFamily: kFontTypeForApp, fontSize: kContainerFontHeight, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                      color: Color(kFontColor),
+                      fontFamily: kFontTypeForApp,
+                      fontSize: kContainerFontHeight,
+                      fontWeight: FontWeight.bold),
                   textAlign: TextAlign.left,
                 ),
               ),
